@@ -1,32 +1,29 @@
 import React from "react";
-import index.css
+import "./index.css";
 
 // Greeting Component
-const Greeting = () => {
-
-    // Get the current hour
-    const hour = new Data().getHours();
-
-    let message = "";
-    let image = "";
-
-    if (hour >= 6 && hour < 12) {
-        messsage = "Good Morning!";
-        image = "src/assets/day.svg"; 
-    } else if (hour >= 12 && hour < 17) {
-        message = "Good Afternoon!";
-        image = "src/assets/day.svg";
-    } else {
-        message = "Good Evening!";
-        image = "src/assets/night.svg";
-    }
-
+const SocialLinks = () => {
     return (
-        <h1 className="greeting">
-        <img src={image} alt={message} />
-        {message}
-    </h1>
+        <div className="social-links">
+            <h></h>;
+            <div className="media">
+                <a
+                    href="https://www.linkedin.com/in/kevin-vang1/"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                >
+                    <img src="src/assets/linkedin.svg" alt="LinkedIn" />
+                </a>
+                <a
+                    href="https://github.com/KVang2"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                >
+                    <img src="src/assets/github.svg" alt="GitHub" />
+                </a>
+            </div>
+        </div>
     );
 };
 
-export default Greeting
+export default SocialLinks;
