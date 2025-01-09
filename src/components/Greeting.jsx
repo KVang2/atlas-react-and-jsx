@@ -1,5 +1,5 @@
 import React from "react";
-import "./index.css";
+import "../index.css";
 
 // Greeting Component
 const Greeting = () => {
@@ -16,6 +16,9 @@ const Greeting = () => {
     } else if (hour >= 12 && hour < 17) {
         message = "Good Afternoon!";
         image = "src/assets/day.svg";
+    } else if (hour >= 17 && hour < 21) {
+        message = "Good Evening!";
+        image = "src/assets/evening.svg";
     } else {
         message = "Good Evening!";
         image = "src/assets/night.svg";
@@ -29,4 +32,4 @@ const Greeting = () => {
     );
 };
 
-export default Greeting
+export default Greeting;
