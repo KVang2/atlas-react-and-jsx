@@ -1,6 +1,6 @@
 import "./index.css";
 import React from "react";
-import ReactDom from "react-dom/client";
+import ReactDOM from "react-dom/client";
 import App from './App';
 
 // Render the App component to the root element
@@ -9,7 +9,7 @@ import App from './App';
 const rootElement = document.getElementById("root");
 
 // Create React root
-const root = ReactDom.createRoot(rootElement);
+const root = ReactDOM.createRoot(rootElement);
 
 root.render(
     <React.StrictMode>
