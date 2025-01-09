@@ -1,11 +1,10 @@
 import React from "react";
 import "./index.css";
 
-// Greeting Component
+// Sociallink Component
 const SocialLinks = () => {
     return (
         <div className="social-links">
-            <h></h>;
             <div className="media">
                 <a
                     href="https://www.linkedin.com/in/kevin-vang1/"
