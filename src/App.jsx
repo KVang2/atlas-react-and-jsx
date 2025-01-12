@@ -2,6 +2,7 @@ import React from "react";
 import Header from "./components/Header";
 import Section from "./components/Section";
 import HelpfulResource from "./components/HelpfulResource";
+import AboutMe from "./components/AboutMe";
 
 function App() {
   return (
@@ -37,6 +38,9 @@ function App() {
           link="https://www.geeksforgeeks.org/react/?ref=gcse_outind"
           label="React Tutorial geeksforgeeks"
         />
+      </Section>
+      <Section title="About Me">
+        <AboutMe />
       </Section>
     </div>
   );
